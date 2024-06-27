@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Задание 7</title>
+<script language="JavaScript" type="text/JavaScript">
+	function writeSub() {
+		var sub = new Array("Математика", "Физика", "Информатика", "Английский язык", "Литература");
+		var science = sub.slice(0, 3);
+		var hum = sub.slice(3, 5);
+		document.write("Перечень предметов: " + sub.join(", ") + "<br><br>");
+		document.write("Естественные науки: " + science.join(", ") + "<br>");
+		document.write("Гуманитарные науки: " + hum.join(", "));
+	}
+</script>
+</head>
+<body>
+<script language="JavaScript" type="text/JavaScript">
+	writeSub();
+</script>
+</body>
+</html>
